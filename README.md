@@ -1,10 +1,14 @@
+```markdown
 # R-vision React
 
-Bienvenue dans **R-vision_React**, un projet éducatif développé avec **React.js**. Ce projet regroupe plusieurs composants pour explorer des concepts clés de React à travers des mini-exercices et fonctionnalités interactives comme un **compteur** et un **mini-jeu**.
+Bienvenue dans **R-vision_React**, un projet éducatif développé avec **React.js**. Ce projet regroupe plusieurs composants pour explorer des concepts clés de React à travers des mini-exercices et des fonctionnalités interactives comme un compteur et un mini-jeu.
 
 ---
 
 ## Structure du projet
+
+```
+
 src/
 ├── compteur/
 │   └── Compteur.jsx         # Composant de compteur avec états et événements
@@ -16,44 +20,41 @@ src/
 ├── App.css                  # Styles globaux pour l'application
 ├── App.js                   # Composant principal qui regroupe tous les autres
 ├── App.test.js              # Tests unitaires de base avec React Testing Library
-└── index.css                # Feuille de style de base pour le projet
+└── index.css                # Feuille de style principale
+
 ````
 
 ---
 
-##  Fonctionnalités principales
+## Fonctionnalités principales
 
-###  Compteur (`compteur/Compteur.jsx`)
+### Compteur (`compteur/Compteur.jsx`)
+- Incrémentation, décrémentation, remise à zéro.
+- Utilisation du hook `useState`.
+- Affichage dynamique.
 
-* Incrémentation, décrémentation, remise à zéro du score.
-* Pratique de `useState` et gestion d'événements.
-* Affichage dynamique de la valeur actuelle.
+### Personnes (`IntroToReact/Personnes.jsx`)
+- Affiche une liste de personnes à partir d’un tableau d’objets.
+- Utilisation de `.map()` et transmission de `props`.
 
-###  Personnes (`IntroToReact/Personnes.jsx`)
+### Produits (`IntroToReact/Products.jsx`)
+- Affichage d’une liste de produits avec nom et prix.
+- Introduction aux composants fonctionnels et aux `props`.
 
-* Affiche une liste de personnes à partir d'un tableau d’objets.
-* Utilisation de la fonction `.map()` et passage de **props**.
-
-###  Produits (`IntroToReact/Products.jsx`)
-
-* Composant listant des produits avec nom et prix.
-* Introduction aux composants fonctionnels et propriétés personnalisées.
-
-###  Jeu (`TP-JEU/Jeu.jsx`)
-
-* Mini-jeu basé sur une logique conditionnelle (ex : devinettes ou clics).
-* Utilisation avancée de `useState` et interactions utilisateurs.
+### Jeu (`TP-JEU/Jeu.jsx`)
+- Mini-jeu basé sur des conditions.
+- Utilisation avancée du `useState` et des événements utilisateur.
 
 ---
 
-##  Démarrage rapide
+## Démarrage rapide
 
 ### 1. Cloner le dépôt
 
 ```bash
 git clone https://github.com/AZIZABADA10/R-vision_React.git
 cd R-vision_React
-```
+````
 
 ### 2. Installer les dépendances
 
@@ -67,24 +68,30 @@ npm install
 npm start
 ```
 
-L’application sera disponible sur [http://localhost:3000](http://localhost:3000)
+L'application sera accessible à l'adresse : [http://localhost:3000](http://localhost:3000)
 
 ---
 
+## Tests
 
+Exécuter les tests avec la commande suivante :
 
-Lance les tests unitaires définis dans `App.test.js`.
+```bash
+npm test
+```
 
----
-
-##  Technologies utilisées
-
-* [React.js](https://reactjs.org)
-* JavaScript (ES6+)
-* CSS Modules
+Cela lancera les tests unitaires définis dans `App.test.js`.
 
 ---
 
-## Développer par ABADA AZIZ
+## Technologies utilisées
+
+* React.js
+* JavaScript ES6+
+* CSS
+
 ---
 
+## Développé par
+
+**ABADA AZIZ**
