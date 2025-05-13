@@ -1,13 +1,10 @@
-````markdown
-# 🎯 R-vision React
+# R-vision React
 
 Bienvenue dans **R-vision_React**, un projet éducatif développé avec **React.js**. Ce projet regroupe plusieurs composants pour explorer des concepts clés de React à travers des mini-exercices et fonctionnalités interactives comme un **compteur** et un **mini-jeu**.
 
 ---
 
-## 📁 Structure du projet
-
-```plaintext
+## Structure du projet
 src/
 ├── compteur/
 │   └── Compteur.jsx         # Composant de compteur avec états et événements
